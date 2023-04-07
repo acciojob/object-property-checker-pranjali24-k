@@ -1,16 +1,14 @@
-const sampleObject = { 
-	#FF0000:"red",
-	#00FF00:"green", 
-	#FFFFFF:"white"
-};
 
+const sampleObject={ red:"red",
+					green:"green",
+					white:"white"};
 
   //   write your code her
 
 function hasKey(key) {
   //   write your code her
 	
-	if(key==sampleObject.#FF0000 || key==sampleObject.#00FF00 ||key==sampleObject.#FFFFFF){
+	if(key==sampleObject.red || key==sampleObject.green||key==sampleObject.white){
 		return true;
 	}
 	else{
