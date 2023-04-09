@@ -11,9 +11,9 @@ function hasKey(key) {
 		}
 		
 	}
-	else{
+	
 			return false;
-		}
+		
 }
 
 // Do not change the code below
