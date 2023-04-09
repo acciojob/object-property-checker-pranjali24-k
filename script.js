@@ -1,7 +1,5 @@
 
-const sampleObject={ red:"red",
-					green:"green",
-					white:"white"};
+const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
   //   write your code her
 
