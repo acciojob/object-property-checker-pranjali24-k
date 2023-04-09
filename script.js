@@ -11,10 +11,11 @@ function hasKey(key) {
 		if(i==key){
 			return true;
 		}
-		else{
+		
+	}
+	else{
 			return false;
 		}
-	}
 }
 
 // Do not change the code below
