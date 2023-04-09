@@ -6,15 +6,15 @@ const sampleObject={ red:"red",
   //   write your code her
 
 function hasKey(key) {
-  //   write your code her
-	
-	if(key==sampleObject.red || key==sampleObject.green||key==sampleObject.white){
-		return true;
+  //   write your code here
+	for(let i in sampleObject){
+		if(i==key){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
-	else{
-		return false;
-	}
-	
 }
 
 // Do not change the code below
